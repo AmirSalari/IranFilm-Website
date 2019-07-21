@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <!--css-->
+    <link href="../assets/login.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div class="main">
+        <div class="login">
+            <div class="title">
+                <a href="#"><i class="material-icons">close</i></a>
+            </div>
+            <div class="signIn-Up">
+                <div class="signIn">
+                    <a href="#"><i class="material-icons arrow">input</i> ورود</a>
+                </div>
+                <div class="signUp">
+                    <a href="register.html"><i class="material-icons">account_circle</i> عضویت</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="google">
+                <a href="#"><i class="fa fa-google-plus"></i> ورود با حساب کاربری گوگل</a>
+            </div>
+            <div class="line">
+                <div class="circle">یا</div>
+            </div>
+            <div class="data">
+                <form>
+                    <label>شناسه ورود</label>
+                    <input type="text" name="email" placeholder="شناسه ورود" /><br />
+                    <label>رمز عبور</label>
+                    <input type="text" name="pass" placeholder="رمز عبور" /><br />
+                    <label>کد امنیتی</label>
+                    <input type="text" name="secure-code" placeholder="کد امنیتی" />
+                    <i class="fa fa-refresh"></i>
+                    <label id="secure-code-label">yas123</label>
+                    <br />
+                    <input type="checkbox" name="rule"><label>من را به خاطر بسپار</label>
+                    <a id="bazyabi-ramz" href="#">بازیابی رمز عبور</a>
+                    <input id="acceptBtn" type="button" value="ورود " />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

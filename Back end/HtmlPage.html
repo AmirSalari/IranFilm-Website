@@ -1,0 +1,474 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Main2</title>
+    <meta charset="utf-8" />
+    <!--css-->
+
+    <link href="../assets/main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--slick css-->
+    <!--<link rel="stylesheet" type="text/css" href="../slick-1.8.0/slick/slick.css" />-->
+    <link href="../slick-1.8.0/slick/slick.css" rel="stylesheet" />
+    <!--Add the new slick-theme.css if you want the default styling-->
+    <!--<link rel="stylesheet" type="text/css" href="../slick-1.8.0/slick/slick-theme.css" />-->
+    <link href="../slick-1.8.0/slick/slick-theme.css" rel="stylesheet" />
+
+    <!--vuetify-->
+    <link href='https://fonts.googleapis.com/css?family=roboto:300,400,500,700|material+icons' rel="stylesheet">
+    <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+</head>
+<body>
+    <div id="app">
+        <v-app id="inspire">
+            <v-container fluid id="fluid">
+                <v-layout column>
+                    <v-flex md12>
+                        <div id="topmenu1">
+                            <div class="wrapper">
+                                <form>
+                                    <input id="ozviyatBtn-item" type="button" value="ورود / عضویت" />
+                                    <a href="#"><i class="material-icons gasIcon">local_gas_station</i></a>
+                                    <div>
+                                        <a href="#" class="searchIcon"><i class="material-icons">search</i></a>
+                                        <input id="search-item" type="search" name="search" size="35" placeholder="جستجوی فیلم،سریال،بازیگر،کارگردان و ..." />
+                                    </div>
+                                    <div class="clear"></div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="topmenu2">
+                            <div class="wrapper2">
+                                <ul id="nav">
+                                    <li><a href="#">آخرین ها<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">فیلم<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">سریال<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">انیمشین<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">مستند<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">مجموعه ها</a></li>
+                                    <li><a href="#">انیمه</a></li>
+                                    <li><a href="#">دوبله<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                    <li><a href="#">زیک زاک</a></li>
+                                    <li><a href="#">باکس آفیس</a></li>
+                                    <li><a href="#">آنونیس</a></li>
+                                    <li><a href="#">برترین ها<i class="material-icons arrow">keyboard_arrow_down</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="searchBar">
+                            <div class="wrapper">
+                                <div class="searchBar-title">
+                                    <p>
+                                        دانلود فیلم ، سریال ، انیمیشن ، مستند و دوبله با 13,621 عنوان
+                                    </p>
+                                </div>
+                                <div class="searchBar-content">
+                                    <a href="#" class="searchBar-content-Icon"><i class="material-icons">zoom_in</i></a>
+                                    <a href="#" class="searchBar-content-Icon"><i class="material-icons">search</i></a>
+                                    <input id="searchBar-content-Item" type="search" name="search" size="35" placeholder="جستجوی فیلم،سریال،بازیگر،کارگردان و ..." />
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="searchBar-button">
+                                    <input id="searchBar-button-item" type="button" value="جستجو" />
+                                    <div class="clear"></div>
+                                </div>
+                                <md-button class="md-fab" aria-label="FAB">
+                                    <md-icon md-svg-src="your/icon.svg"></md-icon>
+                                </md-button>
+                            </div>
+                        </div>
+                        <div class="slide-total">
+                            <div class="slideFilm-title">
+                                <div class="slideFilm-title1"><a href="#">همه</a></div>
+                                <div class="slideFilm-title2"><a href="#">فیلم سینمایی</a></div>
+                                <div class="slideFilm-title3"><a href="#">انیمیشن</a></div>
+                                <div class="slideFilm-title4"><a href="#">مستند</a></div>
+                                <div class="slideFilm-title5"><a href="#">دوبله</a></div>
+                                <div class="slideFilm-title6"><a href="#">جدیدترین عناوین</a></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="slideFilm">
+                                <div><img src="../FilmsImg/1.jpg" /></div>
+                                <!--<div>
+                                    <div class="slide1"><img src="../FilmsImg/2.jpg" /></div>
+                                    <div class="hover1">
+                                        <img src="../FilmsImg/10.jpg" />
+                                        <i class="material-icons">search</i>
+                                        <i class="material-icons">search</i>
+                                        <i class="material-icons">search</i>
+                                    </div>
+                                </div>-->
+                                <div><img src="../FilmsImg/2.jpg" /></div>
+                                <div><img src="../FilmsImg/3.jpg" /></div>
+                                <div><img src="../FilmsImg/4.jpg" /></div>
+                                <div><img src="../FilmsImg/5.jpg" /></div>
+                                <div><img src="../FilmsImg/6.jpg" /></div>
+                                <div><img src="../FilmsImg/7.jpg" /></div>
+                                <div><img src="../FilmsImg/8.jpg" /></div>
+                                <div><img src="../FilmsImg/9.jpg" /></div>
+                                <div><img src="../FilmsImg/10.jpg" /></div>
+                                <div><img src="../FilmsImg/11.jpg" /></div>
+                                <div><img src="../FilmsImg/12.jpg" /></div>
+                                <div><img src="../FilmsImg/13.jpg" /></div>
+                                <div><img src="../FilmsImg/14.jpg" /></div>
+                                <div><img src="../FilmsImg/15.jpg" /></div>
+                            </div>
+                        </div>
+                        <div class="main_banner">
+                            <!--<input id="main_banner_button" type="button" value="طرفدارای بروسلی دانلود کنن!" />-->
+                            <div>
+                                <v-layout row wrap>
+                                    <v-flex md6>
+                                        <p>اسطوره کُنگ فو و رویای صعود به قله!</p>
+                                        <p>از بهترین نبردهای بروسلی</p>
+                                        <v-flex id="main_banner_button">
+                                            <v-btn outline large color="white">طرفدارای بروسلی دانلود کنن!</v-btn>
+                                        </v-flex>
+                                    </v-flex>
+                                    <v-flex md6>
+                                        <!--<span>Light Theme</span>-->
+                                        <v-layout row wrap>
+                                            <v-flex>
+                                                <v-card>
+                                                    <v-card-media src="brusly.png" height="380px">
+                                                    </v-card-media>
+                                                </v-card>
+                                            </v-flex>
+                                        </v-layout>
+                                    </v-flex>
+                                </v-layout>
+                            </div>
+                            <!--<div class="main_banner_image"></div>-->
+                            <div class="clear"></div>
+                        </div>
+                        <!--<div class="main">
+                        </div>-->
+                    </v-flex>
+                    <v-flex md-12>
+                        <h3 id="hottest">داغ ترین ها</h3>
+                        <v-carousel>
+                            <v-carousel-item v-for="(item,i) in items" v-bind:src="item.src" key="i">
+                                <v-card id="v1" v-on:click="greet">
+                                    <v-card-media src="FilmsImg/1.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>َAction</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">web-dl</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                    <!--<v-card-actions>
+                                        <v-menu transition='slide-x-transition')></v-menu>
+                                    </v-card-actions>-->
+                                </v-card>
+                                <v-card id="v2">
+                                    <v-card-media src="FilmsImg/2.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v3">
+                                    <v-card-media src="FilmsImg/3.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v4">
+                                    <v-card-media src="FilmsImg/4.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v5">
+                                    <v-card-media src="FilmsImg/5.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                            </v-carousel-item>
+                            <v-carousel-item v-for="(item,i) in items" v-bind:src="item.src" key="i">
+                                <v-card id="v1">
+                                    <v-card-media src="FilmsImg/6.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v2">
+                                    <v-card-media src="FilmsImg/7.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v3">
+                                    <v-card-media src="FilmsImg/8.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v4">
+                                    <v-card-media src="FilmsImg/9.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v5">
+                                    <v-card-media src="FilmsImg/10.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div>
+                                            <h3>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                                <v-chip label>Label</v-chip>
+                                            </h3>
+                                            <div class="row2-lable">
+                                                <v-chip label outline color="white"><v-icon>star</v-icon>4.9</v-chip>
+                                                <v-chip label outline color="white">Outline</v-chip>
+                                            </div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                            </v-carousel-item>
+                            <!--<v-carousel-item v-for="(item,i) in items" v-bind:src="item.src" key="i">
+                                <v-card id="v1">
+                                    <v-card-media src="FilmsImg/1.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div class="vcard-actions">
+                                            <div class="vcard-action1">fdfdffd</div>
+                                            <div class="vcard-action2">fdfdf</div>
+                                            <div class="vcard-action3">ldsfa;</div>
+                                            <div class="clear"></div>
+                                            <div class="vcard-action4">nvbxzl</div>
+                                            <div class="vcard-action5">nvbxzl</div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                                <v-card id="v2">
+                                    <v-card-media src="FilmsImg/2.jpg" height="200px">
+                                    </v-card-media>
+                                    <v-card-title primary-title>
+                                        <div class="vcard-actions">
+                                            <div class="vcard-action1">fdfdffd</div>
+                                            <div class="vcard-action2">fdfdf</div>
+                                            <div class="vcard-action3">ldsfa;</div>
+                                            <div class="clear"></div>
+                                            <div class="vcard-action4">nvbxzl</div>
+                                            <div class="vcard-action5">nvbxzl</div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </v-card-title>
+                                </v-card>
+                            </v-carousel-item>-->
+                        </v-carousel>
+                    </v-flex>
+                    <v-flex md12>
+                        <div id="footer1">
+                            <div class="wrapper4">
+                                <ul id="foot1">
+                                    <li><a href="#">درخواست فیلم | </a></li>
+                                    <li><a href="#">اشتراک ویژه | </a></li>
+                                    <li><a href="#">باکس آفیس | </a></li>
+                                    <li><a href="#">نرم افزارهای مورد نیاز | </a></li>
+                                    <li><a href="#">پرسش های متداول | </a></li>
+                                    <li><a href="#">درباره ما | </a></li>
+                                    <li><a href="#">تماس با ما</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="footer2" class="wrapper">
+                            <div class="foot2-1">
+                                <p>
+                                    محتوای این سایت  مطابق با فرهنگ <br /> خانواده های ایرانی می باشد
+                                </p>
+                                <div class="footer-icons">
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-telegram"></i>
+                                    <i class="fa fa-google-plus-official"></i>
+                                    <i class="fa fa-twitter-square"></i>
+                                </div>
+                            </div>
+                            <div class="foot2-2">
+                                <p>
+                                    مجموعه دیتابیس فیلم امیرکبیر ، با هدف ایجاد یک تجربه ی مشترک <br />
+                                    آموزشی و تفریحی برای دانشجویان دانشگاه صنعتی امیرکبیر ایجاد شده و <br />
+                                    هیچ گونه ی استفاده تجاری ندارد . در صورتی که از این سایت و امکانات <br />
+                                    آن لذت میبرید آن را به دوستان خود هم معرفی کنید.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer3">
+                            <p>
+                                تمامی حقوق این وبسایت متعلق به محمّدامیر است .
+                            </p>
+                        </div>
+                    </v-flex>
+                </v-layout>
+            </v-container>
+        </v-app>
+    </div>
+
+    <!--vue and vuetify-->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+    <script src="../MyVue.js"></script>
+    <!--jquery & slick-->
+    <script src="../Scripts/jquery-3.2.1.min.js"></script>
+    <script src="../Scripts/jquery-migrate-3.0.0.min.js"></script>
+    <script src="../slick-1.8.0/slick/slick.min.js"></script>
+    <script src="../Carousel.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div id="app">
+    <v-app id="inspire">
+        <v-container fluid grid-list-md>
+            <v-layout row wrap>
+                <v-flex d-flex xs12 sm6 md4>
+                    <v-card color="purple" dark>
+                        <v-card-title primary class="title">Lorem</v-card-title>
+                        <v-card-text v-text="lorem">
+                        </v-card-text>
+                    </v-card>
+                </v-flex>
+                <v-flex d-flex xs12 sm6 md3>
+                    <v-layout row wrap>
+                        <v-flex d-flex>
+                            <v-card color="indigo" dark>
+                                <v-card-text v-text="lorem.slice(0, 70)">
+                                </v-card-text>
+                            </v-card>
+                        </v-flex>
+                        <v-flex d-flex>
+                            <v-layout row wrap>
+                                <v-flex d-flex
+                                        v-for="n in 2"
+                                        key="n"
+                                        xs12>
+                                    <v-card color="red lighten-2"
+                                            dark>
+                                        <v-card-text v-text="lorem.slice(0, 40)">
+                                        </v-card-text>
+                                    </v-card>
+                                </v-flex>
+                            </v-layout>
+                        </v-flex>
+                    </v-layout>
+                </v-flex>
+            </v-layout>
+        </v-container>
+    </v-app>
+</div>-->
